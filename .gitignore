@@ -1,0 +1,4 @@
+/.idea
+/tests/geckodriver.log
+geckodriver.log
+/allure_results/*container.json
