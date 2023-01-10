@@ -11,8 +11,6 @@ def test_ordering_scooter_from_order_button_in_header(open_home):
     order.order_button_click()
     order.confirm_order_creation_button_click()
     assert order.is_order_created_modal_header_visible()
-    # закрыть браузер
-    driver.quit()
 
 
 def test_ordering_scooter_from_order_button_in_body(open_home):
@@ -25,5 +23,3 @@ def test_ordering_scooter_from_order_button_in_body(open_home):
     order.order_button_click()
     order.confirm_order_creation_button_click()
     assert order.is_order_created_modal_header_visible()
-    # закрыть браузер
-    driver.quit()

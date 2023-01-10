@@ -10,5 +10,4 @@ def test_click_logo_scooter(open_order):
     home = HomePageObject(driver)
     home.click_logo_scooter()
     assert WebDriverWait(driver, 15).until(expected_conditions.url_to_be(UrlLocators.HOME_PAGE))
-    # закрыть браузер
-    driver.quit()
+
